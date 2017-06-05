@@ -44,7 +44,7 @@ public class QuickSort {
 	}
 
 	public static void ordenar(int[] a, int ini, int fim) {
-		//verifica se o arranjo È nulo ou se est· vazio
+		//verifica se o arranjo √© nulo ou se est√° vazio
 		if (a == null || a.length == 0) {
 			return;
 
@@ -54,11 +54,11 @@ public class QuickSort {
 			return;
 		}
 
-		//encatra a posicao central do arranjo e recupera seu valor
+		//encontra a posicao central do arranjo e recupera seu valor
 		int meio = ini + (fim - ini) / 2;
 		int pivo = a[meio];
 
-		//declara vari·veis que v„o percorrer o arranjo
+		//declara vari√°veis que v√£o percorrer o arranjo
 		int i = ini;
 		int j = fim;
 		
