@@ -47,8 +47,8 @@ public class InsertionSort {
 	public static int[] ordenar(int[] v) {
 		for (int i = 0; i < v.length; i++) {//percorre o arranjo
 			int a = v[i]; //salva o valor armazenado na posicao atual do arranjo
-			//percorre o arranjo de trás pra frente verificando se o valor aramazenado na posicao atual do arranjo
-			// é maior que o valor armazenado em a, caso sim, faz a troca
+			//percorre o arranjo verificando se o valor aramazenado na posicao atual do arranjo
+			// Ã© maior que o valor armazenado em na posicao anterior, caso sim, faz a troca
 			for (int j = i - 1; j >= 0 && v[j] > a; j--) {  
 				v[j + 1] = v[j];							
 				v[j] = a;      
