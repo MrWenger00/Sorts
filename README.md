@@ -1,1 +1,1 @@
-# Java Codes - Algoritimos de Ordenação. 
+# Java Codes - Algoritmos de Ordenação. 
