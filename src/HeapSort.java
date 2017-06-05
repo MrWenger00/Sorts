@@ -51,9 +51,9 @@ public class HeapSort {
 		}
 		for (int i = n - 1; i >= 0; i--) {
 			
-			int temp = a[0];
+			int aux = a[0];
 			a[0] = a[i];
-			a[i] = temp;
+			a[i] = aux;
 
 			
 			heapify(a, i, 0);
@@ -69,10 +69,10 @@ public class HeapSort {
 		int r = 2 * i + 2; 
 
 		if (l < n && a[l] > a[largura]){
-			largest = l;
+			largura = l;
 		}
 		if (r < n && a[r] > a[largura]){
-			largest = r;
+			largura = r;
 		}
 		
 		if (largura != i) {
