@@ -68,13 +68,13 @@ public class MergeSort {
 				aux[j++] = a[dir++];
 			}
 		}
-		while (esq <= ultimoEsquerda) { // Copy rest of first half
+		while (esq <= ultimoEsquerda) { 
 			aux[j++] = a[esq++];
 		}
-		while (dir <= ultimoDireita) { // Copy rest of right half
+		while (dir <= ultimoDireita) { 
 			aux[j++] = a[dir++];
 		}
-		// Copy tmp back
+		
 		for (int i = 0; i < num; i++, ultimoDireita--) {
 			a[ultimoDireita] = aux[ultimoDireita];
 		}
